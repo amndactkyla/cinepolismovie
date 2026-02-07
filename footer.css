@@ -1,0 +1,46 @@
+.cinepolis-footer {
+  background-color: #0b1c2d;
+  color: #ffffff;
+  margin-top: 40px;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 30px;
+  padding: 40px 60px;
+}
+
+.footer-brand h2 {
+  color: #f5c518;
+  margin-bottom: 8px;
+}
+
+.footer-brand p {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.footer-links h4 {
+  margin-bottom: 12px;
+  font-size: 16px;
+}
+
+.footer-links p {
+  font-size: 14px;
+  margin: 6px 0;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.footer-links p:hover {
+  opacity: 1;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 15px;
+  font-size: 13px;
+  background-color: #081421;
+  opacity: 0.8;
+}
