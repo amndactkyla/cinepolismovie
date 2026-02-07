@@ -1,0 +1,139 @@
+.cinepolis-navbar {
+  position: sticky;
+  top: 0;
+  background: linear-gradient(to right, #071c3a, #0b2a5b);
+  z-index: 999;
+}
+
+/* BARIS ATAS */
+.nav-top {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 64px;
+  font-size: 15px;
+  color: #fff;
+}
+
+/* LOGO TENGAH MUTLAK */
+.nav-logo {
+  position: absolute;
+  top: 36px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 22px;
+  font-weight: 800;
+  color: #ffd200;
+}
+
+.nav-logo span {
+  color: #fff;
+  font-weight: 600;
+}
+
+/* BARIS UTAMA */
+.nav-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 48px 64px 12px;
+}
+
+.menu-left {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+}
+
+.menu-left a {
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.menu-left a:hover {
+  border-bottom: 2px solid #ffd200;
+}
+
+/* SEARCH */
+.search-box {
+  background: #fff;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.search-box input {
+  border: none;
+  outline: none;
+  background: transparent;   
+  box-shadow: none;         
+  font-size: 14px;
+  color: #000;
+}
+
+.search-box input::placeholder {
+  color: #666;
+}
+
+
+/* BARIS SUB PUTIH */
+.nav-sub {
+  background: #fff;
+  padding: 14px 64px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 36px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #0b2a5b;
+}
+
+/* DROPDOWN */
+.dropdown-wrap {
+  position: relative;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: absolute;
+  top: 30px;
+  right: 0;
+  background: #fff;
+  list-style: none;
+  min-width: 200px;
+  border-radius: 6px;
+  box-shadow: 0 10px 25px rgba(0,0,0,.25);
+  z-index: 9999;
+}
+
+.dropdown li {
+  padding: 10px 16px;
+}
+
+.dropdown li:hover {
+  background: #f2f2f2;
+}
+
+.dropdown.scroll {
+  max-height: 260px;
+  overflow-y: auto;
+}
+.dropdown li {
+  color: #0b2a5b;   /* WARNA TEKS GELAP */
+  background: #fff;
+  padding: 10px 16px;
+}
+.dropdown li:hover {
+  background: #f2f2f2;
+  color: #000;
+}
+.nav-top {
+  height: 36px;
+  align-items: center;
+}
+.top-right {
+  background: transparent;
+}
